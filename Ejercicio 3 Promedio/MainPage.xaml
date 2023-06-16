@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_3_Promedio.MainPage">
+    <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Image Source="promedio.jpg"  HeightRequest="200"/>
+            <Entry x:Name="Nota1" Placeholder="Introduzca la nota 1" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Entry x:Name="Nota2" Placeholder="Introduzca la nota 2" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Entry x:Name="Nota3" Placeholder="Introduzca la nota 3" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Entry x:Name="Nota4" Placeholder="Introduzca la nota 4" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Entry x:Name="Nota5" Placeholder="Introduzca la nota 5" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium"/>
+            <Button x:Name="Calcular" Text="Calcular" Clicked="OnButtonClicked" Margin="10, 10, 10, 10" BorderColor="Purple" BorderWidth="3" FontFamily="Centhry Gothic" FontSize="Medium" BackgroundColor="Bisque"/>
+            <Label Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium">El promedio de notas es:</Label>
+            <Entry x:Name="PromedioFinal" Placeholder="El promedio es:" Margin="10, 10, 10, 10" FontFamily="Centhry Gothic" FontSize="Medium" IsEnabled="False"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
